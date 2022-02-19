@@ -1,5 +1,5 @@
 # https://cloud.google.com/sdk/docs/downloads-docker
-FROM gcr.io/google.com/cloudsdktool/cloud-sdk:339.0.0
+FROM gcr.io/google.com/cloudsdktool/cloud-sdk:latest
 
 RUN apt-get install software-properties-common -y && \
     curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add - && \
